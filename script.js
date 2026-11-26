@@ -7,7 +7,7 @@ startAutoSlide();
 function startAutoSlide() {
   slideTimer = setInterval(function() {
     plusSlides(1);
-  }, 4000);
+  }, 8000);
 }
 
 function resetAutoSlide() {
