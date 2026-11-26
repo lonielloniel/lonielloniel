@@ -85,12 +85,40 @@
         padding: 0px 170px 0px 20px;
     }
 
-    @media (max-width: 600px){
-        section, aside {
-            float: none;
-            clear: both;
-        }
+    @media (max-width: 900px) {
+    .content {
+        margin: 20px 10px 0px 10px;
+        padding: 0.5em;
     }
+
+    section, aside {
+        float: none;
+        clear: both;
+        width: 100%;
+        min-width: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    h1, h3 {
+        max-width: 100%;
+        font-size: 18vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+
     
     .footer {
         background: #f4e4cd;
