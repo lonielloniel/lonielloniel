@@ -76,13 +76,13 @@
     }
     section {
         float: left;
-        padding:0px 20px 0px 150px;
+        padding:0px 20px 0px 170px;
         min-width: 400px;    
     }
     
     aside {
         float: right;
-        padding: 0px 150px 0px 20px;
+        padding: 0px 170px 0px 20px;
     }
 
     .footer {
