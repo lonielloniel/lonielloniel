@@ -81,10 +81,18 @@
         position: relative;
        
     }
+    
     aside {
         float: right;
         padding: 0px 170px 0px 20px;
         position: relative;
+    }
+
+    @media (max-width: 600px){
+        section, aside {
+            float: none;
+            clear: both;
+        }
     }
     
     .footer {
