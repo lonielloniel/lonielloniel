@@ -13,6 +13,7 @@ function startAutoSlide() {
 function resetAutoSlide() {
   clearInterval(slideTimer);
   startAutoSlide();
+}
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
